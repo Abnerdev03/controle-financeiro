@@ -1,0 +1,56 @@
+*{
+    background-color: rgb(168, 168, 86);
+}
+
+.titulo{
+    margin-top: 16px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+tabela-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    
+  }
+
+  .container {
+    flex: 1;
+    padding: 10px;
+    
+  }
+
+  .container-left {
+    flex: 1;
+    padding: 10px;
+    
+  }
+
+  .container-right {
+    flex: 1;
+    padding: 10px;
+    
+  }
+
+  .titulo {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .linha {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .linha-item {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #000;
+  }
